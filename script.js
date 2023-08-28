@@ -1,5 +1,6 @@
 //your JS code here. If required.
 function priyanka(){
+	//alert("hello");
 	var item=document.getElementById("colorSelect");
-	item.option[item.selectedIndex].remove();
+	item.options[item.selectedIndex].remove();
 }
